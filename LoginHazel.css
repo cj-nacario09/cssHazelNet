@@ -1,0 +1,175 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: #f7f7f7;
+}
+
+/* Main container */
+.auth-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: #f7f7f7;
+}
+
+/* LEFT PANEL */
+.left-panel {
+    flex: 1;
+    background: #8b5cf6; /* Purple */
+    color: #f7f7f7;
+    padding: 60px;
+    position: relative;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-panel .back {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-size: 14px;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.left-panel h1 {
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.left-panel p {
+    font-size: 24px;
+    font-weight: lighter;
+    opacity: 0.9;
+    margin-bottom: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.left-panel .register-btn {
+    width: 140px;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid #f7f7f7;
+    color: #f7f7f7;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: 0.3s;  
+    align-self: center;
+}
+
+.left-panel .register-btn:hover {
+    background: #ffffff;
+    color: #8b5cf6;
+}
+
+/* RIGHT PANEL */
+.right-panel {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box {
+    width: 380px;
+}
+
+.login-box h2 {
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+/* Input fields */
+.input-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 40px 12px 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    font-size: 20px;
+}
+
+.input-group i {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+}
+
+/* Forgot password */
+.forgot {
+    text-align: right;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.forgot a {
+    color: #777;
+    text-decoration: none;
+}
+
+/* Login button */
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background: #8b5cf6;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-btn:hover {
+    background: #7c3aed;
+}
+
+/* Social login */
+.social-text {
+    text-align: center;
+    font-size: 16px;
+    margin: 20px 0 10px;
+    color: #777;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons button {
+    width: 42px;
+    height: 42px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer;
+    font-size: 25px;
+}
+
